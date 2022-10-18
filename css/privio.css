@@ -1,0 +1,426 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Maquillaje index */
+body-privio{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    height: 100%;
+    background-color: #21183c;
+}
+#contenedor{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px;
+}
+#mn{
+    font-size: 25px;
+    color:#A396E7;
+}
+header img{
+    width: 120px;    
+}
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 10em;
+}
+.camsearch{
+    display: flex;
+    justify-content: space-between;
+    width: 6em;
+}
+#campana{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ color: #A396E7;
+ font-size: 25px;
+}
+#campana span{
+    position: relative;
+    width: 15px;
+    height: 15px;
+    font-family: arial;
+    font-size: 9px;
+    color: #F9F9FA;
+    right: 10px;
+    top: -5PX;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: red;
+}
+#lupa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #A396E7;
+    margin-right: .4em;
+    font-size: 25px;
+   }
+   
+#h2_index{
+    color: #F9F9FA;
+    margin: 10px;
+    font-family: arial;
+} 
+article{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 100px;
+    margin-bottom: 2px;
+    background-color: #3F336B;
+}
+.contenido{
+    display: flex;
+    flex: 1;
+}
+#avengers{
+    display: flex;
+    background-image: url(../imagenes/unnamed\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius: 8px;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 4em;
+    border: 1px  solid;
+    height: 4em;
+    margin-left: 10px;
+}
+#joker{
+    display: flex;
+    background-image: url(../imagenes/joker\ historia\ real\ goetz\ ny\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 8px;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 4em;
+    border: 1px  solid;
+    height: 4em;
+    margin-left: 10px;
+}
+#django{
+    display: flex;
+    background-image: url(../imagenes/MV5BODUyNzEwNDkzNl5BMl5BanBnXkFtZTcwMzcwMDYzOA@@._V1_.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 8px;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 4em;
+    border: 1px  solid;
+    height: 4em;
+    margin-left: 10px;
+}
+
+
+.data{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin-left: 15px;
+}
+#namee{
+    font-family: arial;
+    color: #A396E7;
+}
+.time{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 5px;
+    width: 70%;
+}
+#new{
+    width: 5.5em;
+    height: 1.5em;
+    border: none;
+    color: #F9F9FA;
+    background-color: #04df84;
+    border-radius: 20px;
+}
+small{
+    font-family: arial;
+    font-size: 10px;
+    color: #6457AC;
+}
+#tr{
+    font-size: 12px;
+    margin-top: 10px;
+    font-family: arial;
+    color: #6457AC;
+}
+#exp{
+    width: 5.5em;
+    height: 1.5em;
+    border: none;
+    color: #F9F9FA;
+    background-color: #A396E7;
+    border-radius: 20px;
+}
+#vie{
+    width: 5.5em;
+    height: 1.5em;
+    border: none;
+    color: #F9F9FA;
+    background-color: #ff0062;
+    border-radius: 20px;
+}
+.rp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 16px;
+    height: 16px;
+    background-color: #a0a0a0dc;
+    border-radius: 50%;
+    margin: 2px;
+}
+#rpr{
+    font-size: 7px;
+    color: #F9F9FA;
+}
+
+
+
+/* Maquilaje de search(privio) */
+
+body-search{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    height: 100%;
+    background-color: #21183c;
+}
+#contenedor2{
+    margin: 20px;
+}
+#tl{
+    font-family: arial;
+    color: #F9F9FA;
+    margin: 0px 0px 0px 20px;
+}
+nav{
+    display: flex;
+    height: 3em;
+    margin: 20px;
+}
+.barra{
+    display: flex;
+    border-bottom: 2px solid #6457AC;
+    align-items: center;
+    width: 70%;
+}
+.barra input{
+    height: 100%;
+    border: none;
+    background-color: #21183c;
+    width: 100%;
+}
+::placeholder{
+    color: #6457AC;
+}
+.barra #lupa2{
+    font-size: 20px;
+    color: #6457AC;
+    margin: 10px;
+}
+.icon{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    flex: 1;
+    height: 100%;
+}
+#az{
+    font-size: 25px;
+    color: #6457AC;
+}
+#todo{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+#seccion{
+    margin: 20px;
+    display: flex;
+    height: 100%;
+}
+.articulo{
+    display: flex;
+    flex-direction: column;
+    width:50%;
+    height: 17em;
+    background-color: #21183c;
+    margin-right: 10px;
+ }
+ .imag1{
+    display: flex;
+    background-image: url(../imagenes/unnamed\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 15em;
+    justify-content: flex-end;
+    align-items: flex-end;
+    border-radius: 20px;
+    margin-bottom: 10px;
+ }
+ .imag1 i{
+    font-size: 15px;
+    color: #F9F9FA;
+    margin: 5px;
+ }
+
+ .imag2{
+    display: flex;
+    background-image: url(../imagenes/joker\ historia\ real\ goetz\ ny\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 15em;
+    justify-content: flex-end;
+    align-items: flex-end;
+    border-radius: 20px;
+    margin-bottom: 10px;
+ }
+ .imag2 i{
+    font-size: 15px;
+    color: #F9F9FA;
+    margin: 5px;
+ }
+
+ .imag3{
+    display: flex;
+    background-image: url(../imagenes/MV5BODUyNzEwNDkzNl5BMl5BanBnXkFtZTcwMzcwMDYzOA@@._V1_.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 15em;
+    justify-content: flex-end;
+    align-items: flex-end;
+    border-radius: 20px;
+    margin-bottom: 10px;
+ }
+ .imag3 i{
+    font-size: 15px;
+    color: #F9F9FA;
+    margin: 5px;
+ }
+
+ .imag4{
+    display: flex;
+    background-image: url(../imagenes/unnamed\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 15em;
+    justify-content: flex-end;
+    align-items: flex-end;
+    border-radius: 20px;
+    margin-bottom: 10px;
+ }
+ .imag4 i{
+    font-size: 15px;
+    color: #F9F9FA;
+    margin: 5px;
+ }
+
+ #tit{
+    display: flex;
+    width: 100%;
+ }
+ #ta{
+    font-size: 13px;
+    font-family: arial;
+    width: 60%;
+    color: #A396E7;
+ }
+ @media all and (min-width:500px) and (max-width:2000px){
+   
+    .articulo{
+        display: flex;
+        flex-direction: column;
+        width:50%;
+        height: 50em;
+        background-color: #21183c;
+
+        margin-right: 10px;
+     }
+     .imag1{
+        height: 40em;
+     }
+     .imag2{
+        height: 40em;
+     }
+     .imag3{
+        height: 40em;
+     }
+     .imag4{
+        height: 40em;
+     }
+ }
+
+
+ /* Maquillaje trailer(privio) */
+ body-trailer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    background-color: #21183c;
+}
+#contenedor3{
+    border: 1px solid;
+}
+#contenedor3 video{
+    width: 320px;
+}
+#flecha{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: #F9F9FA;
+}
+.pelit{
+    width: 70%;
+    font-family: arial;
+    color: #F9F9FA;
+    margin: 20px 20px 0px 20px;
+}
+.datas{
+    width: 70%;
+    margin:0px 20px 20px 20px;
+}
+.desc{
+    margin: 20px;
+    color: #A396E7;
+}
+.desc small{
+    
+    font-size: 14px;
+    
+}
+#ulb{
+    margin: 20px;
+    height: 3.5em;
+    border-radius: 30px;
+    background-color: #21183c;
+    border: 1px solid #6457AC;
+    color: #A396E7;
+    width: 90%;
+}
+#ico{
+    margin: 10px;
+}
